@@ -1,0 +1,21 @@
+.Beercard-container {
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: all ease 0.3s;
+  height:432px;
+  background-color: rgba(255, 214, 30, 0.178);
+  border-radius: 5px;
+  color: #212025;
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  img {
+    max-height:200px;
+  }
+  .Beercard-name{
+    height:56px;
+  }
+  .Beercard-abv{
+    font-weight: 800;
+  }
+}

@@ -1,0 +1,17 @@
+.Filterbar-container {
+  .Filterbar-sort-options{
+    background-color: rgb(206, 206, 206);
+    padding: 20px;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    p {
+      margin-bottom: 0;
+      margin-right:10px;
+    }
+    select{
+      width:200px;
+    }
+  }
+}
