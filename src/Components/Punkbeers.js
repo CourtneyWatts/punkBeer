@@ -22,14 +22,14 @@ class Punkbeers extends Component {
   render () {
     return (
       <div>
-        <div className='container-fluid banner' style={{backgroundImage: `url(${banner})`}}>asa</div>
+        <div className='container-fluid banner' style={{backgroundImage: `url(${banner})` }}>
+          <h1 className>Punk Beers</h1>
+        </div>
         <div className='container pt-5'>
           <Filterbar onChange={this.handleSort} />
           <Beercards sortBy={this.state.sortBy} />
-          sdsds
         </div>
       </div>
-
     )
   }
 }

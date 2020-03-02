@@ -52,8 +52,7 @@ class Beercards extends Component {
             return 1
           }
           return 0
-        }
-        )
+        })
       }
       list = list.map(item => (
         <Beercard key={item.id} name={item.name} img={item.image_url} description={item.description} abv={item.abv} />

@@ -1,6 +1,6 @@
 .Filterbar-container {
   .Filterbar-sort-options{
-    background-color: rgb(206, 206, 206);
+    background-color: #dfe6e9;
     padding: 20px;
     display: flex;
     margin-bottom: 50px;
@@ -12,6 +12,9 @@
     }
     select{
       width:200px;
+      @media screen and (max-width: 350px){
+        width:150px;
+      }
     }
   }
 }
